@@ -56,7 +56,6 @@
                         android:layout_below="@id/caretakerImage"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="8dp"
-                        android:text="Jiya Thakur"
                         android:textColor="@android:color/white"
                         android:textSize="22sp"
                         android:textStyle="bold" />
@@ -85,8 +84,7 @@
                             android:id="@+id/addressField"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:enabled="false"
-                            android:text="Deakin University" />
+                            android:enabled="false"/>
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -98,8 +96,7 @@
                             android:id="@+id/dobField"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:enabled="false"
-                            android:text="October 21, 2002" />
+                            android:enabled="false" />
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -111,8 +108,7 @@
                             android:id="@+id/phoneField"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:enabled="false"
-                            android:text="+61 12345678" />
+                            android:enabled="false"/>
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -124,8 +120,7 @@
                             android:id="@+id/wardField"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:enabled="false"
-                            android:text="2" />
+                            android:enabled="false"/>
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -137,8 +132,7 @@
                             android:id="@+id/medicareField"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:enabled="false"
-                            android:text="1234 5678 9" />
+                            android:enabled="false"/>
                     </com.google.android.material.textfield.TextInputLayout>
                 </LinearLayout>
             </ScrollView>
